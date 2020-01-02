@@ -44,6 +44,6 @@ let routine = [
 ]
 
 function exerciseDog(dogName, dogBreed) {
-  routine.map 
+  return routine.map(fn => fn(dogName, dogBreed));
 }
 
