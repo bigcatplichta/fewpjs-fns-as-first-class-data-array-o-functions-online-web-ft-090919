@@ -34,5 +34,14 @@ function unleashDog(dogName, dogBreed) {
   return msg;
 }
 
-let routine = [wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
+let routine = [
+  wakeDog(),
+  leashDog(),
+  walkToPark(),
+  throwFrisbee(),
+  walkHome(),
+  unleashDog()
+]
+
+
 
