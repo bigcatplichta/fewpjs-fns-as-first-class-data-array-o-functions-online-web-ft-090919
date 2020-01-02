@@ -19,5 +19,7 @@ function walkHome(dogName, dogBreed) {
 }
 
 function unleashDog(dogName, dogBreed) {
-  console.log(`)
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
+
+let routine = []
