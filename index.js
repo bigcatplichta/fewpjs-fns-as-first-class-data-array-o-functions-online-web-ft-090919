@@ -1,16 +1,19 @@
 function wakeDog(dogName, dogBreed) {
-  console.log(`Wake ${dogName} the ${dogBreed}`);
-  return `Wake ${dogName} the ${dogBreed}`;
+  let msg = `Wake ${dogName} the ${dogBreed}`;
+  console.log(msg);
+  return msg;
 }
 
 function leashDog(dogName, dogBreed) {
-  console.log(`Wake ${dogName} the ${dogBreed}`);
-  return `Wake ${dogName} the ${dogBreed}`;
+  let msg = `Wake ${dogName} the ${dogBreed}`;
+  console.log(msg);
+  return msg;
 }
 
 function walkToPark(dogName, dogBreed) {
-  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
-  return `Walk to the park with ${dogName} the ${dogBreed}`
+  let msg = `Walk to the park with ${dogName} the ${dogBreed}`;
+  console.log(msg);
+  return msg
 }
 
 function throwFrisbee(dogName, dogBreed) {
