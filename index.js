@@ -43,5 +43,7 @@ let routine = [
   unleashDog()
 ]
 
-
+function exerciseDog(dogName, dogBreed) {
+  
+}
 
