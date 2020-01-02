@@ -16,19 +16,19 @@ let walkToPark = function(dogName, dogBreed) {
   return msg;
 }
 
-function throwFrisbee(dogName, dogBreed) {
+let throwFrisbee = function(dogName, dogBreed) {
   let msg = `Throw the frisbee for ${dogName} the ${dogBreed}`;
   console.log(msg);
   return msg;
 }
 
-function walkHome(dogName, dogBreed) {
+let walkHome = function(dogName, dogBreed) {
   let msg = `Walk home with ${dogName} the ${dogBreed}`;
   console.log(msg);
   return msg;
 }
 
-function unleashDog(dogName, dogBreed) {
+let unleashDog = function(dogName, dogBreed) {
   let msg = `Unleash ${dogName} the ${dogBreed}`;
   console.log(msg);
   return msg;
