@@ -13,13 +13,13 @@ function leashDog(dogName, dogBreed) {
 function walkToPark(dogName, dogBreed) {
   let msg = `Walk to the park with ${dogName} the ${dogBreed}`;
   console.log(msg);
-  return msg
+  return msg;
 }
 
 function throwFrisbee(dogName, dogBreed) {
   let msg = `Throw the frisbee for ${dogName} the ${dogBreed}`;
   console.log(msg);
-  return msg
+  return msg;
 }
 
 function walkHome(dogName, dogBreed) {
