@@ -4,13 +4,13 @@ let wakeDog = function(dogName, dogBreed) {
   return msg;
 }
 
-function leashDog(dogName, dogBreed) {
+let leashDog = function(dogName, dogBreed) {
   let msg = `Leash ${dogName} the ${dogBreed}`;
   console.log(msg);
   return msg;
 }
 
-function walkToPark(dogName, dogBreed) {
+let walkToPark = function(dogName, dogBreed) {
   let msg = `Walk to the park with ${dogName} the ${dogBreed}`;
   console.log(msg);
   return msg;
@@ -36,11 +36,11 @@ function unleashDog(dogName, dogBreed) {
 
 let routine = [
   wakeDog,
-  leashDog(),
-  walkToPark(),
-  throwFrisbee(),
-  walkHome(),
-  unleashDog()
+  leashDog,
+  walkToPark,
+  throwFrisbee,
+  walkHome,
+  unleashDog
 ]
 
 function exerciseDog(dogName, dogBreed) {
